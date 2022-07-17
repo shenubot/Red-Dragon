@@ -22,11 +22,11 @@ global.APIKeys = {
 global.alivemsg = `My name is RED DRAGON🔥
 My Creator is Kumuthu Prabhasha😎` //Costomize Alive Message (type your message in `` )
 
-global.owner = ['+380944814219'] //Owner number in aive msg
-global.premium = ['+380944814219'] //Owner Number info
-global.ownernomer = '+380944814219' //Owner Number <<<
+global.owner = [+94759228417] //Owner number in aive msg
+global.premium = [+94759228417] //Owner Number info
+global.ownernomer = +94759228417 //Owner Number <<<
 
-global.ownername = '😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖' //Owner Name
+global.ownername = '😎𝙈.𝙈𝘼𝙉𝙐𝙎𝙃𝘼' //Owner Name
 global.botname = ' ☬RED༒DRAGON࿐' //Bot Name
 
 global.button = '🤭Youtube📍' //Costomize A Button Name In Alive Message
@@ -35,7 +35,7 @@ global.btnurl = 'https://youtu.be/E5C-lrl_g9I' //Change Your Button's URL
 global.region = 'India, South India, Kerala' //Country Region
 
 global.packname = '☬RED༒DRAGON࿐' //Bot Pacage Name
-global.author = '😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯' //Author Name
+global.author = '😎𝙈.𝙈𝘼𝙉𝙐𝙎𝙃𝘼❯❯' //Author Name
 global.prefa = ['','!','.','😂','❤️','💠'] //Command Prefix eg:(.alive ,alive 😂alive)
 global.sessionName = 'session' //Session Name!
 global.sp = '⭔' //A Charactor
@@ -77,7 +77,7 @@ global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-let file = require.resolve(__filename)
+let file = require.resolve(filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
